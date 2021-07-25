@@ -6,11 +6,11 @@
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
 	<a-marker preset="hiro">
-	<a-sphere src="../assets/WORLDMAP_VR_RED.jpg"  position='0 0 0' rotation="0 0 0" animation="property: rotation; to: 0 180 0; dur: 4000; easing: linear; loop: true">
+	<a-sphere src="../assets/WORLDMAP_VR_RED.jpg"  position='0 0 0' rotation="0 0 0" animation="property: rotation; to: 0 360 0; dur: 4000; easing: linear; loop: true">
 		
 	</a-sphere>
-	<a-entity rotation="0 0 0"  animation="property: rotation; to: 0 360 0; loop: true; dur: 10000">
-	        <a-sphere scale="0.05 0.05 0.05" position="1.2 0 0" color="green"></a-sphere>
+	<a-entity rotation="0 0 0"  animation="property: rotation; to: 0 360 0; easing: linear; loop: true; dur: 2000">
+	        <a-sphere scale="0.1 0.1 0.1" position="1.2 0 0" color="green"></a-sphere>
 			
 	</a-entity>
 	<!--<a-entity
